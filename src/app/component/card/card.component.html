@@ -1,5 +1,5 @@
-<div *ngFor="let card of cards" class="row" (click)="selectedCard(card.id)" >
-  <div class="col-sm-6 px-1 py-1">
+<div class="row"  >
+  <div *ngFor="let card of cards" class="col-sm-4 px-2 py-2" (click)="selectedCard(card.id)">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">{{card.title}}</h5>
