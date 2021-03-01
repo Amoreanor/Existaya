@@ -1,0 +1,14 @@
+<div *ngIf="card" class="container py-2" >
+  <div class="jumbotron">
+    <h1 class="display-4">{{card.title}}</h1>
+    <p class="lead">{{card.description}}</p>
+    <hr class="my-4">
+    <p>¿Cual es tu voto?</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Like</a>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Dislike</a>
+    </p>
+    <a href="#" class="card-link">Like: <span>{{card.like}}</span> </a>
+    <a href="#" class="card-link">Dislike: <span>{{card.dislike}}</span> </a>
+  </div>
+</div>

@@ -3,27 +3,38 @@
       {
         "id": 1,
         "title": "Card 1",
-        "description": "Descripcion"
+        "description": "Descripcion realizada para la validacion de la card",
+        "like": 12,
+        "dislike": 2
       },
       {
         "id": 2,
-        "title": "Card 1",
-        "description": "Descripcion"
+        "title": "Card 2",
+        "description": "Descripcion realizada para la validacion de la card",
+        "like": 1,
+        "dislike": 5
       },
       {
         "id": 3,
-        "title": "Card 1",
-        "description": "Descripcion"
+        "title": "Card 3",
+        "description": "Descripcion realizada para la validacion de la card",
+        "like": 6,
+        "dislike": 2
       },
       {
         "id": 4,
-        "title": "Card 1",
-        "description": "Descripcion"
+        "title": "Card 4",
+        "description": "Descripcion realizada para la validacion de la card",
+        "like": 2,
+        "dislike": 1
       },
       {
         "id": 5,
         "title": "Card 5",
-        "description": "Descripcion"
+        "description": "Descripcion realizada para la validacion de la card",
+        "like": 21,
+        "dislike": 8
+
       }
     ]
   }
